@@ -190,7 +190,7 @@ button:focus-visible {
   background:
     linear-gradient(90deg, rgba(15, 45, 34, 0.9), rgba(15, 45, 34, 0.55) 48%, rgba(15, 45, 34, 0.16)),
     linear-gradient(180deg, rgba(15, 45, 34, 0.1), rgba(15, 45, 34, 0.36)),
-    url("https://img1.wsimg.com/isteam/ip/cc7dc0b3-75b7-4794-a10c-ff479d45a1ae/Meadows%20Cover.png") center / cover;
+    url("assets/hero-san-patricio-meadows.jpg") center / cover;
   transform: scale(1.01);
 }
 
@@ -545,7 +545,7 @@ button:focus-visible {
   .hero-media {
     background:
       linear-gradient(0deg, rgba(15, 45, 34, 0.92), rgba(15, 45, 34, 0.3)),
-      url("https://img1.wsimg.com/isteam/ip/cc7dc0b3-75b7-4794-a10c-ff479d45a1ae/Meadows%20Cover.png") center / cover;
+      url("assets/hero-san-patricio-meadows.jpg") 58% center / cover;
   }
 
   .hero h1 {
