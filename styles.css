@@ -271,8 +271,42 @@ a {
 
 .document-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
+}
+
+.board-section {
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.board-card {
+  min-height: 7rem;
+  display: grid;
+  align-content: space-between;
+  gap: 1rem;
+  padding: 1.15rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+}
+
+.board-card strong {
+  font-size: 1.08rem;
+  line-height: 1.25;
+}
+
+.board-card span {
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 750;
 }
 
 .document-card {
@@ -324,6 +358,11 @@ a {
 
 .contact-panel strong {
   font-size: 1.15rem;
+}
+
+.text-link {
+  width: fit-content;
+  font-weight: 750;
 }
 
 .site-footer {
@@ -393,6 +432,7 @@ a {
   .notice-band,
   .two-column,
   .contact-section,
+  .board-grid,
   .document-grid {
     grid-template-columns: 1fr;
   }
