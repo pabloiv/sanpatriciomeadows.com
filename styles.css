@@ -190,7 +190,7 @@ button:focus-visible {
   background:
     linear-gradient(90deg, rgba(15, 45, 34, 0.9), rgba(15, 45, 34, 0.55) 48%, rgba(15, 45, 34, 0.16)),
     linear-gradient(180deg, rgba(15, 45, 34, 0.1), rgba(15, 45, 34, 0.36)),
-    url("https://raw.githubusercontent.com/pabloiv/sanpatriciomeadows.com/main/assets/hero-san-patricio-meadows.jpg") center / cover;
+    url("https://raw.githubusercontent.com/pabloiv/sanpatriciomeadows.com/e4dec9453aba52760d3b31e010428087bda6c313/assets/hero-san-patricio-meadows.jpg") center / cover;
   transform: scale(1.01);
 }
 
@@ -545,7 +545,7 @@ button:focus-visible {
   .hero-media {
     background:
       linear-gradient(0deg, rgba(15, 45, 34, 0.92), rgba(15, 45, 34, 0.3)),
-      url("https://raw.githubusercontent.com/pabloiv/sanpatriciomeadows.com/main/assets/hero-san-patricio-meadows.jpg") 58% center / cover;
+      url("https://raw.githubusercontent.com/pabloiv/sanpatriciomeadows.com/e4dec9453aba52760d3b31e010428087bda6c313/assets/hero-san-patricio-meadows.jpg") 58% center / cover;
   }
 
   .hero h1 {
